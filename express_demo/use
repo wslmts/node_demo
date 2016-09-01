@@ -1,0 +1,5 @@
+本应用涉及express,forever,socket.io的使用
+
+全局安装express后（可指定版本 npm install -g express@3.0）,express 项目名称，即可生成一个模板项目；
+进入项目还需要执行npm install express本模块依赖；
+
