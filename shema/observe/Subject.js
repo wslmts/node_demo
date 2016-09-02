@@ -9,11 +9,8 @@ module.exports=function(){
     //删除观察者
     this.removeObserver=function(observer){
         console.log('删除观察者'+observer.name);
-        eventset.forEach(function(v,i){
-            console.log(v,i)
-        });
-     /*   delete eventset[observer];
-        console.log(eventset)*/
+        delete eventset[observer];
+        console.log(eventset)
     }
     //通知所有观察者
     this.doAction=function(){
