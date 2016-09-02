@@ -8,5 +8,5 @@ var s=new Subject();
 s.addObserver(oa);
 s.addObserver(ob);
 s.doAction();
-s.removeObserver(1);
+s.removeObserver(oa);
 s.doAction();
