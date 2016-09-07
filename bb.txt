@@ -1,1 +1,1 @@
-write buf
+write buf   welcome
